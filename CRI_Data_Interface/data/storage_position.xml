@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program>
+    <Header RobotName="igus Arm" RobotType="RL-D-RBT-3322S" GripperType="ParallelGripper90.xml" Software="CPRog V902-12-028" VelocitySetting="0" />
+    <Joint AbortCondition="false" Nr="1" Source="Numerical" velPercent="50" acc="40" smooth="0" a1="0" a2="-45" a3="54" a4="66" a5="0" a6="0" e1="0" e2="0" e3="0" Descr="" />
+</Program>

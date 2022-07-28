@@ -1,0 +1,62 @@
+CPRog Log Messages - info@commonplacerobotics.de 
+2022-07-28 02:41:57,132 [1] INFO  CRI_Data_Interface.CRIDataInterfaceGUI - CRI data interface client started.
+2022-07-28 02:42:01,986 [1] DEBUG CRI_Data_Interface.HardwareProtocolClient - Connecting to the remote control...
+2022-07-28 02:42:01,988 [1] INFO  CRI_Data_Interface.CRIServiceObject - Connecting to 127.0.0.1
+2022-07-28 02:42:01,992 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - Interface: connected to 127.0.0.1
+2022-07-28 02:42:01,992 [ReadLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - ReadLoop started...
+2022-07-28 02:42:02,372 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 0 MESSAGE CPRog Version V902-12-028 CRIEND
+2022-07-28 02:42:02,372 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 1 MESSAGE Configuration: "igus Arm" Type: "RL-D-RBT-3322S" Gripper: "ParallelGripper90.xml" CRIEND
+2022-07-28 02:42:02,372 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 2 MESSAGE VelocitySetting: "0" CRIEND
+2022-07-28 02:42:02,372 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 3 CMD Active true CRIEND
+2022-07-28 02:43:05,999 [1] DEBUG CRI_Data_Interface.CRIServiceObject - Command: Move to zero position
+2022-07-28 02:43:05,999 [1] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 636 CMD Move Joint 0 0 0 90 0 0 0 0 0 70 CRIEND
+2022-07-28 02:43:12,255 [1] DEBUG CRI_Data_Interface.CRIDataInterfaceGUI - Output directory: C:\Users\felix\Desktop\Test selected.
+2022-07-28 02:43:16,535 [1] DEBUG CRI_Data_Interface.CRIDataInterfaceGUI - Output directory: C:\Users\felix\Desktop\Test\testRunPhysical selected.
+2022-07-28 02:43:18,915 [1] DEBUG CRI_Data_Interface.CRIDataInterfaceGUI - Program file: C:\CPRog\Data\Programs\test_robot.xml selected.
+2022-07-28 02:43:18,915 [1] DEBUG CRI_Data_Interface.CRIServiceObject - Filepath selected: C:\CPRog\Data\Programs\test_robot.xml
+2022-07-28 02:43:26,237 [1] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 838 CMD DeleteProgram CRIEND
+2022-07-28 02:43:26,237 [1] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 839 CMD LoadProgram test_robot.xml CRIEND
+2022-07-28 02:43:26,245 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 4140 VARERROR ValuePosVariable #programrunning variable_not_known CRIEND
+2022-07-28 02:43:26,245 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 4141 VARERROR ValuePosVariable #logicprogramrunning variable_not_known CRIEND
+2022-07-28 02:43:26,245 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 4144 VARERROR ValuePosVariable #programrunning variable_not_known CRIEND
+2022-07-28 02:43:26,245 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 4145 VARERROR ValuePosVariable #logicprogramrunning variable_not_known CRIEND
+2022-07-28 02:43:27,484 [1] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 852 CMD Move Joint 0 -13.42 20.3 80 0 0 0 0 0 100 CRIEND
+2022-07-28 02:43:36,822 [1] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StartProgram
+2022-07-28 02:43:36,822 [1] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 946 CMD StartProgram CRIEND
+2022-07-28 02:43:44,189 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 5475 EXECEND 0 000 PLAN CRIEND
+2022-07-28 02:43:44,196 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StartProgram
+2022-07-28 02:43:44,196 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1020 CMD StartProgram CRIEND
+2022-07-28 02:43:51,580 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 6284 EXECEND 0 000 PLAN CRIEND
+2022-07-28 02:43:51,587 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StartProgram
+2022-07-28 02:43:51,588 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1095 CMD StartProgram CRIEND
+2022-07-28 02:43:58,981 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 7093 EXECEND 0 000 PLAN CRIEND
+2022-07-28 02:43:58,988 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StartProgram
+2022-07-28 02:43:58,988 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1169 CMD StartProgram CRIEND
+2022-07-28 02:44:06,383 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 7902 EXECEND 0 000 PLAN CRIEND
+2022-07-28 02:44:06,389 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StartProgram
+2022-07-28 02:44:06,389 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1244 CMD StartProgram CRIEND
+2022-07-28 02:44:13,787 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 8708 EXECEND 0 000 PLAN CRIEND
+2022-07-28 02:44:13,794 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StartProgram
+2022-07-28 02:44:13,794 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1318 CMD StartProgram CRIEND
+2022-07-28 02:44:21,181 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 9517 EXECEND 0 000 PLAN CRIEND
+2022-07-28 02:44:21,189 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StartProgram
+2022-07-28 02:44:21,189 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1393 CMD StartProgram CRIEND
+2022-07-28 02:44:28,592 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 327 EXECEND 0 000 PLAN CRIEND
+2022-07-28 02:44:28,601 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StartProgram
+2022-07-28 02:44:28,601 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1467 CMD StartProgram CRIEND
+2022-07-28 02:44:35,988 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 1136 EXECEND 0 000 PLAN CRIEND
+2022-07-28 02:44:35,995 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StartProgram
+2022-07-28 02:44:35,995 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1542 CMD StartProgram CRIEND
+2022-07-28 02:44:43,380 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 1941 EXECEND 0 000 PLAN CRIEND
+2022-07-28 02:44:43,387 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StartProgram
+2022-07-28 02:44:43,387 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1616 CMD StartProgram CRIEND
+2022-07-28 02:44:50,784 [ReadLoop] INFO  CRI_Data_Interface.HardwareProtocolClient - CRISTART 2751 EXECEND 0 000 PLAN CRIEND
+2022-07-28 02:44:50,793 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Send command: CMD StopProgram
+2022-07-28 02:44:50,793 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1691 CMD StopProgram CRIEND
+2022-07-28 02:44:50,793 [CollectionLoop] DEBUG CRI_Data_Interface.CRIServiceObject - Command: Move to zero position
+2022-07-28 02:44:50,793 [CollectionLoop] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 1692 CMD Move Joint 0 0 0 90 0 0 0 0 0 70 CRIEND
+2022-07-28 02:45:58,556 [1] DEBUG CRI_Data_Interface.CRIServiceObject - Command: Move to storage position
+2022-07-28 02:45:58,556 [1] DEBUG CRI_Data_Interface.HardwareProtocolClient - CRISTART 2366 CMD Move Joint 0 -45 54 66 0 0 0 0 0 25 CRIEND
+2022-07-28 02:46:22,767 [1] ERROR CRI_Data_Interface.CRIServiceObject - Send Command: Cannot send while not connected!
+2022-07-28 02:46:22,767 [1] DEBUG CRI_Data_Interface.CRIServiceObject - Command: Move to zero position
+CPRog Log Messages - info@commonplacerobotics.de 

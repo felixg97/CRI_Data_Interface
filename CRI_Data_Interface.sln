@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRI_Data_Interface", "CRI_Data_Interface\CRI_Data_Interface.csproj", "{02908588-FCDC-4280-8BC9-DB2DDFAF54CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02908588-FCDC-4280-8BC9-DB2DDFAF54CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02908588-FCDC-4280-8BC9-DB2DDFAF54CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02908588-FCDC-4280-8BC9-DB2DDFAF54CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02908588-FCDC-4280-8BC9-DB2DDFAF54CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDF11475-C9DB-4248-937D-C1BACAF9079C}
+	EndGlobalSection
+EndGlobal
